@@ -11,7 +11,7 @@ import Foundation
 struct Product {
     private(set) var title: String
     private(set) var price: String
-    private(set) var imageName: String
+    private(set) public var imageName: String
     
     init(title: String, price: String, imageName:String) {
         self.title = title
